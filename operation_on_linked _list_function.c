@@ -351,7 +351,7 @@ void display_linked_list(node *head) {
   node *p;
   p = head;
   while (p != NULL) {
-    printf("<- %d ->", (p->data));
+    printf("%d ->", (p->data));
     p = p->next;
   }
 }
